@@ -1,0 +1,51 @@
+.report{
+    background-color: white;
+    text-align: center;
+    margin-left: 37.5%;
+    width:25%;
+    position:absolute;
+    z-index: 1;
+}
+
+p{
+    font-size:1.25rem;
+}
+
+#email{
+    width:75%;
+    text-align:center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    padding: .5rem;
+    border: 3px solid #ccc;
+}
+
+#email:focus {
+    border: 3px solid #555;
+}
+
+#custom-button, #upload-button{
+    padding: 10px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom:2rem;
+}
+
+#custom-button:hover{
+    background-color: #00b28f;
+}
+
+#upload-button:hover{
+    background-color: #00b28f;
+}
+
+#custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+}
+
+  
